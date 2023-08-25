@@ -1,7 +1,8 @@
 # CarPlate Detection Project Source Code
 ## Introduction
-This is my implementation for Shanghai JiaoTong Univeristy Computer Vision(AU335) Project. The requirement of the project is given in "课程大作业.pdf".
-The complete explanation and result of the related project is written in "陈敬彦_519030990031_计算机视觉课程报告.pdf” using Chinese.
+This is my implementation for Shanghai JiaoTong Univeristy Computer Vision(AU335) Project. The requirement of the project is given in "课程大作业.pdf".  
+The complete explanation and result of the related project is written in "陈敬彦_519030990031_计算机视觉课程报告.pdf” using Chinese.  
+上海交通大学计算机视觉(AU335)课程大作业相关代码与报告
 
 ## Environment Implementation
 - Python 3.10
