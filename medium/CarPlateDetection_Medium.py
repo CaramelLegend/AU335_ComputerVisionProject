@@ -206,7 +206,6 @@ for filename in images_resize:
             # cv2.waitKey()
             FinalCarPlate = fcp
             # print(fcp.shape)
-            cv2.waitKey()
     
     # 调整车牌图片大小
     resize_w = 500 # 500
