@@ -104,7 +104,7 @@ for filename in images_resize:
             # cv2.drawContours(imgDark, contours, index, (255, 255, 255), 2, 8) # 轮廓绘制                        
             
             box = cv2.boxPoints(rect)  # Vertices Coordinates                                        
-            box = np.int0(box)
+            box = np.intp(box)
             cv2.drawContours(imgDark, [box], 0, (0, 0, 255), 2) # 矩形绘制  
             for x in range(4): # 修正矩形坐标
                 for y in range(2):
@@ -190,7 +190,7 @@ for filename in images_resize:
         area = abs(float(w))*abs(float(h))
         if scale > 3 and scale < 6 and ((angle >= 85.0 and angle <= 90.0) or (angle >= 0 and angle <= 5)) and area > 100:
             box = cv2.boxPoints(rect)  # Vertices Coordinates                                        
-            box = np.int0(box)
+            box = np.intp(box)
             cv2.drawContours(imgDark, [box], 0, (0, 0, 255), 2) # 矩形绘制
             # cv2.imshow("Final", imgDark)
             for i in range(4): # 修正矩形坐标
