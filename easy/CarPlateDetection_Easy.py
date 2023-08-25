@@ -165,5 +165,3 @@ for filename in images_resize:
     correct_result = 0
 
     img_index += 1
-
-cv2.destroyAllWindows()
